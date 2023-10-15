@@ -1,0 +1,7 @@
+{
+  "required": "Campo requerido",
+  "name": "Enter your name",
+  "phone": "Enter your number phone",
+  "email": "Enter your email address",
+  "message": "Here goes your message"
+}

@@ -1,0 +1,10 @@
+{
+  "home": "Inicio",
+  "menu": {
+    "home": "Inicio",
+    "about": "Quienes Somos",
+    "services": "Servicios",
+    "clients": "clientes",
+    "contact": "contacto"
+   }
+}

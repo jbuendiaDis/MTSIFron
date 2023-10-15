@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.c54fb41a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.37c432c9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.f7a97418.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.7e0ff4f7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.fc8227f9.js">
+	</head>
+	<body data-sveltekit-prefetch>
+		<div>
+			<script>
+				{
+					__sveltekit_k2ke2b = {
+						env: {"PUBLIC_API":"","PUBLIC_API_LOCAL":"","PUBLIC_IPREGISTRY_KEY":"","PUBLIC_IPREGISTRY_URL":"","PUBLIC_DEBUG_I18NEXT":"","PUBLIC_API_MAP":"AIzaSyBkXmOWxlrVTQxVzy47AiuBIe_HS6-ZNuY"},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					Promise.all([
+						import("./_app/immutable/entry/start.c54fb41a.js"),
+						import("./_app/immutable/entry/app.fc8227f9.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_k2ke2b.element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

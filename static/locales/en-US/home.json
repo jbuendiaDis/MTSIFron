@@ -1,0 +1,58 @@
+{
+  "seo-title": "Home",
+  "title": "logística",
+  "title2": "y transporte",
+  "description": "Somos una empresa 100% Mexicana con 32 años de experiencia, nos esforzamos por mejorar día a día nuestros procesos de logística para dar un mejor rendimiento a nuestros clientes, logrando así ser una empresa consolidada en el ramo del traslado de unidades en toda la República Mexicana y el Extranjero, ofreciendo la mejor calidad en servicio, operatividad y seguridad adquiriendo estas al solicitar nuestra amplia gama de servicios.",
+  "services": {
+    "title": "Patios De Resguardó",
+    "title2": "Activo Operacional",
+    "subtitle": "Capacidad",
+    "subtitle2": "Servicios",
+    "subtitle3": "Preventiva",
+    "section1": {
+      "item1" : "100 Operadores y transfer calificados.",
+      "item2" : "100 juegos de placas para traslado Nacional e Internacional con convenio con la SCT.",
+      "item3" : "13 placas demostradoras de la CDMX.",
+      "item4" : "Póliza de Seguro de responsabilidad civil.",
+      "item5" : "Madrinas para traslados sin rodar.",
+      "item6" : "Dispositivos electrónicos de peaje (Viapass).",
+      "item7" : "Equipos de comunicación con la mayor cobertura de RED en México.",
+      "item8" : "En USA las comunicaciones y el GPS es proporcionado por plataforma certificada."
+    },
+    "section2": {
+      "item1" : "Plataforma GPS, conectada a todos los dispositivos de comunicación (certificada por Telcel y Tom Tom en colaboración con Google Maps.",
+      "item2" : "Tarjetas Toka para suministro de Diesel y Gasolina valida en las principales estaciones del país.",
+      "item3" : "Certificados : OEA (Operador Económico Autorizado).",
+      "item4" : "En proceso de certificaciones:",
+      "item5" : "CTPACK",
+      "item6" : "ISO-9001"
+    },
+    "section3": {
+      "item1" : "Operadores para movimientos",
+      "item2" : "Guardias de Seguridad",
+      "item3" : "Inspectores de unidades con su Team Leader",
+      "item4" : "Mantenimiento y Limpieza unidades.",
+      "item5" : "Las instalaciones cuentan con :",
+      "item6" : "Cámaras de seguridad y video grabación las 24 hrs",
+      "item7" : "Enlaces con servidores Ciudad de México.",
+      "item8" : "Oficina de logística",
+      "item9" : "Registró de unidades entrantes y salientes",
+      "item10" : "Sellos de seguridad para tanques."
+    },
+    "section4": {
+      "item1" : "En operaciones de flotilla proporcionamos",
+      "item2" : "Team Leader permanente con amplia experiencia.",
+      "item3" : "Sellos de Seguridad para tanques y mangueras de diésel.",
+      "item4" : "Actualización de inventarios.",
+      "item5" : "Realizan reportes de Inspección."
+    }
+  },
+  "operators": {
+    "title": "Nuestros operadores",
+    "description": "Todos nuestros operadores cuentan con: Identificaciones Oficiales, Equipo de Seguridad, Pasaporte, VISA Transfer, Tarjeta VIAPASS y Comunicaciones y GPS integrados a la plataforma."
+  },
+  "contact": {
+    "title": "CONTACTA CON NOSOTROS.",
+    "button": "Enviar"
+  }
+}
