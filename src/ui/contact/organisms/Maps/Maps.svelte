@@ -27,7 +27,7 @@
     },
     {
       corporative: "Estado de México",
-      street: "Ponsiano Díaz S/N",
+      street: "Ponciano Díaz S/N",
       city: " Santiago Tianguistengo",
       state: "Estado de México",
       zip: "C.P. 52600",

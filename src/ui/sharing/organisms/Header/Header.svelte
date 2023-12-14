@@ -40,6 +40,10 @@
       url: "/clients",
     },
     {
+      name: $i18n.t("Cotizador"),
+      url: "/login",
+    },
+    {
       name: $i18n.t("header:menu.contact"),
       url: "/contact",
     }

@@ -14,3 +14,9 @@ export const DEFAULT_MESSAGE_VALUES = {
   phone: "",
   message: "",
 };
+
+export const login = {
+  clientCode: string().required("required"),
+  password: string().required("required"),
+  email: string().email("required-email").required("required"),
+};
