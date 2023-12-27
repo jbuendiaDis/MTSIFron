@@ -18,6 +18,6 @@
 <main class={layout.main}>
 	<slot />
 </main>
-{#if currentPath !== '/login' && currentPath !== '/dashboard'}
+{#if currentPath !== '/login' && currentPath !== '/cotizador' && currentPath !== '/historial'}
 <Footer />
 {/if}

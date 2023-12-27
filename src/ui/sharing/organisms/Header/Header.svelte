@@ -49,16 +49,32 @@
     }
   ];
 
+  $: linksCotizador = [
+    {
+      name: $i18n.t("header:menu.home"),
+      url: "/",
+    },
+    {
+      name: $i18n.t("Cotizador"),
+      url: "/cotizador",
+    },
+    {
+      name: $i18n.t("Historial"),
+      url: "/historial",
+    }
+  ];
+
+let currentPath = '';
+
 onMount(() => {
   hero = "noHero";
+  currentPath = location.pathname;
 });
 
 afterUpdate(() => {
     if ($page.route.id == "/contact") {
-      console.log('Items have changed!', hero);
       hero = "hero";
     } else {
-      console.log('Items not have changed!', hero);
       hero = "noHero";
     }
 });
@@ -84,7 +100,8 @@ afterUpdate(() => {
         on:click={$device ? toggleModal : undefined}
         on:keypress={() => {}}
       >
-        {#each links as link}
+      {#if currentPath !== '/cotizador' && currentPath !== '/historial'}
+      {#each links as link}
           <li class={styles.item}>
             <a
               class={styles.link}
@@ -95,8 +112,20 @@ afterUpdate(() => {
             </a>
           </li>
         {/each}
-      </ul>
-      
+        {:else}
+        {#each linksCotizador as link}
+        <li class={styles.item}>
+          <a
+            class={styles.link}
+            class:active={$page.url.pathname === link.url}
+            href={link.url}
+          >
+            {link.name}
+          </a>
+        </li>
+      {/each}
+      {/if}
+    </ul>
       {#if $device}
       <button
       class={styles.burguer}
